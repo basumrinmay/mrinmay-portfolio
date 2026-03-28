@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mrinmay Basu — Design Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Ambient background -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+    <div class="grain"></div>
+
+    <!-- Music control -->
+    <div class="music-control">
+      <button id="musicBtn" aria-label="Play or pause music">▶</button>
+    </div>
+
+    <!-- Audio -->
+    <audio id="audio" loop preload="auto">
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="brand">MRINMAY.BASU</div>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#tip">Tip</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">UI/UX DESIGNER · STORYTELLER · BUILDER</p>
+        <h1>
+          Design that feels<br />
+          like a quiet revolution.
+        </h1>
+        <p class="hero-text">
+          I create interfaces and product experiences that do more than look
+          beautiful. They guide, persuade, simplify, and stay in people’s minds.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">Explore Work</a>
+          <a href="#about" class="btn btn-secondary">Read My Story</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-card">
+          <img
+            src="https://picsum.photos/seed/hero-ui/900/1100"
+            alt="Featured portfolio visual placeholder"
+          />
+          <div class="hero-card-overlay">
+            <p>Featured Vision</p>
+            <h3>Minimal. Emotional. Unforgettable.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Intro line -->
+    <section class="intro-strip reveal">
+      <p>
+        When someone enters this website, they should not feel like they opened
+        a portfolio. They should feel like they stepped into a point of view.
+      </p>
+    </section>
+
+    <!-- Work -->
+    <section class="section" id="work">
+      <div class="section-head reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Six stories. One design philosophy.</h2>
+        <p>
+          These are structured as separate pages later. For now, the homepage
+          builds the mood and lets each project feel intentional.
+        </p>
+      </div>
+
+      <div class="grid two-col">
+        <div class="block reveal">
+          <div class="block-head">
+            <p class="eyebrow">UI DESIGN WORK</p>
+            <h3>Visual systems with cinematic clarity</h3>
+          </div>
+
+          <div class="card-list">
+            <a href="ui-project-1.html" class="project-card">
+              <img
+                src="https://picsum.photos/seed/ui1/900/600"
+                alt="UI project 1 placeholder"
+              />
+              <div class="card-content">
+                <span>01 · Premium Product Interface</span>
+                <h4>Designed to feel calm, expensive, and precise.</h4>
+              </div>
+            </a>
+
+            <a href="ui-project-2.html" class="project-card">
+              <img
+                src="https://picsum.photos/seed/ui2/900/600"
+                alt="UI project 2 placeholder"
+              />
+              <div class="card-content">
+                <span>02 · Futuristic Dashboard Design</span>
+                <h4>
+                  Data-heavy UI turned into something elegant and readable.
+                </h4>
+              </div>
+            </a>
+
+            <a href="ui-project-3.html" class="project-card">
+              <img
+                src="https://picsum.photos/seed/ui3/900/600"
+                alt="UI project 3 placeholder"
+              />
+              <div class="card-content">
+                <span>03 · Mobile Experience Design</span>
+                <h4>
+                  Bold interfaces shaped by hierarchy, emotion, and rhythm.
+                </h4>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="block reveal">
+          <div class="block-head">
+            <p class="eyebrow">UX CASE STUDIES</p>
+            <h3>Problem-first design with real thinking</h3>
+          </div>
+
+          <div class="card-list">
+            <a href="ux-case-study-1.html" class="project-card">
+              <img
+                src="https://picsum.photos/seed/ux1/900/600"
+                alt="UX case study 1 placeholder"
+              />
+              <div class="card-content">
+                <span>01 · Friction Reduction Case Study</span>
+                <h4>
+                  How simplifying flow increased clarity and decision
+                  confidence.
+                </h4>
+              </div>
+            </a>
+
+            <a href="ux-case-study-2.html" class="project-card">
+              <img
+                src="https://picsum.photos/seed/ux2/900/600"
+                alt="UX case study 2 placeholder"
+              />
+              <div class="card-content">
+                <span>02 · Journey Re-architecture</span>
+                <h4>
+                  Restructuring experience around what users actually need
+                  first.
+                </h4>
+              </div>
+            </a>
+
+            <a href="ux-case-study-3.html" class="project-card">
+              <img
+                src="https://picsum.photos/seed/ux3/900/600"
+                alt="UX case study 3 placeholder"
+              />
+              <div class="card-content">
+                <span>03 · Conversion + Clarity Thinking</span>
+                <h4>
+                  Design choices that support trust, scannability, and action.
+                </h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote reveal">
+      <p>
+        “I do not design to decorate. I design to make people feel clarity.”
+      </p>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="eyebrow">ABOUT</p>
+          <h2>Quiet visuals. Loud intention.</h2>
+          <p>
+            I’m a UI/UX Designer focused on turning complexity into intuitive
+            product experiences. My work sits between visual precision and human
+            emotion — where strong design systems, storytelling, and usability
+            meet.
+          </p>
+          <p>
+            I care about interfaces that feel premium, but I care even more
+            about interfaces that help people move with confidence.
+          </p>
+        </div>
+
+        <div class="about-image reveal">
+          <img
+            src="https://picsum.photos/seed/aboutportrait/900/1100"
+            alt="About section portrait placeholder"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Tip -->
+    <section class="section tip-section" id="tip">
+      <div class="tip-card reveal">
+        <div class="tip-copy">
+          <p class="eyebrow">TIP ME</p>
+          <h2>Support the craft</h2>
+          <p>
+            If this experience moved you, inspired you, or helped you believe in
+            what I can build, you can support me here.
+          </p>
+        </div>
+
+        <div class="qr-box">
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://example.com/tip-me"
+            alt="Tip me QR code placeholder"
+          />
+          <span>Scan to support</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Let’s build something unforgettable.</h2>
+        <p>
+          Whether it’s product design, visual direction, UX thinking, or a
+          digital experience that needs stronger presence — I’m ready.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:yourmail@example.com">yourmail@example.com</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Behance</a>
+          <a href="#">Dribbble</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Mrinmay Basu — Designed with intention.</p>
+    </footer>
+
+    <script>
+      const audio = document.getElementById("audio");
+      const btn = document.getElementById("musicBtn");
+      let started = false;
+
+      function updateButton() {
+        if (audio.paused) {
+          btn.innerHTML = "▶";
+          btn.classList.remove("playing");
+        } else {
+          btn.innerHTML = "❚❚";
+          btn.classList.add("playing");
+        }
+      }
+
+      async function startMusicOnce() {
+        if (started) return;
+
+        try {
+          await audio.play();
+          started = true;
+          updateButton();
+        } catch (error) {
+          console.log("Autoplay blocked until stronger interaction:", error);
+        }
+      }
+
+      window.addEventListener("mousemove", startMusicOnce, { once: true });
+      window.addEventListener("wheel", startMusicOnce, { once: true });
+      window.addEventListener("click", startMusicOnce, { once: true });
+      window.addEventListener("touchstart", startMusicOnce, { once: true });
+      window.addEventListener("keydown", startMusicOnce, { once: true });
+
+      btn.addEventListener("click", async function (e) {
+        e.stopPropagation();
+
+        try {
+          if (audio.paused) {
+            await audio.play();
+            started = true;
+          } else {
+            audio.pause();
+          }
+          updateButton();
+        } catch (error) {
+          console.log("Button playback failed:", error);
+        }
+      });
+
+      updateButton();
+
+      // Reveal animation
+      const reveals = document.querySelectorAll(".reveal");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+            }
+          });
+        },
+        { threshold: 0.15 },
+      );
+
+      reveals.forEach((el) => observer.observe(el));
+    </script>
+  </body>
+</html>
