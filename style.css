@@ -569,3 +569,71 @@ body {
 .hero-card:hover video {
   transform: scale(1.08);
 }
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+}
+
+.portfolio-card {
+  text-decoration: none;
+  color: inherit;
+  border-radius: 24px;
+  overflow: hidden;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.35s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+}
+
+.portfolio-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 18px;
+  filter: brightness(0.9);
+  transition: transform 0.45s ease;
+}
+
+.portfolio-card:hover img {
+  transform: scale(1.04);
+}
+
+.portfolio-card span {
+  display: block;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.52);
+  margin-bottom: 10px;
+}
+
+.portfolio-card h3 {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
+}
+
+.portfolio-card p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+@media (max-width: 1100px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
